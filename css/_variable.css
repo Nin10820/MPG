@@ -1,37 +1,43 @@
 /* Variables */
 :root {
-    --black: rgba(0, 0, 0, 1);
-    --neutral95: rgba(10, 12, 14, 1);
+
+
     --primary1000: rgba(14, 32, 50, 1);
-    --elm: rgba(22, 123, 136, 1);
-    --neutral90: rgba(24, 34, 47, 1);
-    --eastern-blue: rgba(27, 154, 170, 1);
     --primary900: rgba(29, 64, 99, 1);
-    --neutral80: rgba(30, 42, 59, 1);
-    --neutral70: rgba(39, 54, 75, 1);
     --primary800: rgba(43, 96, 149, 1);
-    --neutral60: rgba(71, 85, 105, 1);
     --primary600: rgba(72, 160, 248, 1);
-    --neutral50: rgba(100, 116, 139, 1);
     --primary500: rgba(109, 179, 249, 1);
-    --chelsea-cucumber: rgba(125, 185, 80, 1);
     --primary400: rgba(145, 198, 251, 1);
-    --neutral40: rgba(148, 163, 184, 1);
     --primary300: rgba(182, 217, 252, 1);
-    --neutral30: rgba(203, 212, 225, 1);
     --primary200: rgba(218, 236, 254, 1);
-    --neutral20: rgba(226, 232, 240, 1);
     --primary100: rgba(237, 246, 254, 1);
-    --neutral10: rgba(241, 244, 249, 1);
+    --primarybackground: rgba(248, 251, 255, 1);
+
+    --neutral1000: rgba(10, 12, 14, 1);
+    --neutral900: rgba(24, 34, 47, 1);
+    --neutral800: rgba(30, 42, 59, 1);
+    --neutral700: rgba(39, 54, 75, 1);
+    --neutral600: rgba(71, 85, 105, 1);    
+    --neutral500: rgba(100, 116, 139, 1);
+    --neutral400: rgba(148, 163, 184, 1);    
+    --neutral300: rgba(203, 212, 225, 1);    
+    --neutral200: rgba(226, 232, 240, 1);    
+    --neutral100: rgba(241, 244, 249, 1);
+    --neutral05: rgba(245, 248, 251, 1);
+
     --black-squeeze: rgba(243, 250, 251, 1);
     --carnation: rgba(244, 85, 100, 1);
-    --neutral05: rgba(245, 248, 251, 1);
+    --chelsea-cucumber: rgba(125, 185, 80, 1);
     --desert-storm: rgba(248, 248, 248, 1);
-    --primarybackground: rgba(248, 251, 255, 1);
+    --elm: rgba(22, 123, 136, 1);
+    --eastern-blue: rgba(27, 154, 170, 1);
     --chablis: rgba(254, 243, 243, 1);
     --texas-rose: rgba(255, 181, 92, 1);
     --sunglow: rgba(255, 199, 72, 1);
     --white: rgba(255, 255, 255, 1);
+    --black: rgba(0, 0, 0, 1);
+
+
     --font-size-xxs: 10px;
     --font-size-xs: 12px;
     --font-size-s: 14px;
@@ -47,7 +53,7 @@
 
 /* Classes */
 .nunitosans-semi-bold-ebony-clay-20px {
-    color: var(--neutral80);
+    color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-l);
     font-weight: 600;
@@ -55,7 +61,7 @@
 }
 
 .nunitosans-semi-bold-storm-gray-16px {
-    color: var(--neutral50);
+    color: var(--neutral500);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 600;
@@ -63,7 +69,7 @@
 }
 
 .nunitosans-bold-fiord-16px {
-    color: var(--neutral60);
+    color: var(--neutral600);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 700;
@@ -79,7 +85,7 @@
 }
 
 .nunitosans-normal-mischka-16px {
-    color: var(--neutral30);
+    color: var(--neutral300);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 400;
@@ -87,7 +93,7 @@
 }
 
 .roboto-normal-pewter-blue-14px {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-roboto);
     font-size: var(--font-size-s);
     font-weight: 400;
@@ -95,7 +101,7 @@
 }
 
 .nunitosans-semi-bold-ebony-clay-16px {
-    color: var(--neutral80);
+    color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 600;
@@ -111,7 +117,7 @@
 }
 
 .inter-normal-storm-gray-12px {
-    color: var(--neutral50);
+    color: var(--neutral500);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-xs);
     font-weight: 400;
@@ -119,7 +125,7 @@
 }
 
 .nunitosans-normal-pewter-blue-14px {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-s);
     font-weight: 400;
@@ -127,7 +133,7 @@
 }
 
 .nunitosans-normal-pewter-blue-16px {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 400;
@@ -143,7 +149,7 @@
 }
 
 .nunitosans-semi-bold-ebony-clay-24px {
-    color: var(--neutral80);
+    color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-xl);
     font-weight: 600;
@@ -158,7 +164,7 @@
 }
 
 .nunitosans-normal-pewter-blue-16px-2 {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 400;
@@ -166,7 +172,7 @@
 }
 
 .nunitosans-bold-pewter-blue-14px {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-s);
     font-weight: 700;
@@ -174,7 +180,7 @@
 }
 
 .nunitosans-bold-pewter-blue-16px {
-    color: var(--neutral40);
+    color: var(--neutral400);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 700;
@@ -190,7 +196,7 @@
 }
 
 .nunitosans-bold-ebony-clay-16px {
-    color: var(--neutral80);
+    color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 700;
@@ -198,7 +204,7 @@
 }
 
 .nunitosans-normal-storm-gray-16px {
-    color: var(--neutral50);
+    color: var(--neutral500);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-m);
     font-weight: 400;
@@ -206,7 +212,7 @@
 }
 
 .roboto-semi-bold-fiord-16px {
-    color: var(--neutral60);
+    color: var(--neutral600);
     font-family: var(--font-family-roboto);
     font-size: var(--font-size-m);
     font-weight: 600;
@@ -214,7 +220,7 @@
 }
 
 .nunitosans-normal-fiord-14px {
-    color: var(--neutral60);
+    color: var(--neutral600);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-s);
     font-weight: 400;
@@ -230,7 +236,7 @@
 }
 
 .inter-normal-storm-gray-10px {
-    color: var(--neutral50);
+    color: var(--neutral500);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-xxs);
     font-weight: 400;
@@ -238,7 +244,7 @@
 }
 
 .nunitosans-bold-ebony-clay-32px {
-    color: var(--neutral80);
+    color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
     font-size: var(--font-size-xxl);
     font-weight: 700;
