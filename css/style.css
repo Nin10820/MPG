@@ -330,6 +330,7 @@ label:has(.option-input:checked) {
     flex-direction: column;
     padding: 32px 16px 24px;
     width: fit-content;
+
 }
 
 .tab-content h2 {
@@ -627,4 +628,21 @@ label:has(.option-input:checked) {
 .prepare-folder .icon object {
     filter: brightness(0) invert(1);
 
+}
+
+.subtitle {
+    width: 1024px;
+    margin-bottom: 1rem;
+    color: var(--neutral400);
+}
+.warning-text {
+    display: flex;
+    font-size: var(--font-size-s);
+    color: #F8A149;
+    margin: 0;
+    align-items: center;
+    gap: .5rem;
+}
+.warning-text object {
+   filter:  invert(52%) sepia(38%) saturate(3695%) hue-rotate(359deg) brightness(101%) contrast(108%);
 }
