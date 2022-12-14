@@ -184,7 +184,7 @@ object {
 
 .nav-tabs {
     align-items: flex-start;
-    background-color: var(--primary100);
+    background-color: var(--primarybackground);
     border-radius: 20px;
     display: flex;
     gap: 10px;
@@ -196,6 +196,7 @@ object {
 .nav-tabs .nav-items {
     border-radius: 18px;
     display: flex;
+    flex-direction: row;
     overflow: hidden;
     width: 1024px;
 }
@@ -222,7 +223,6 @@ object {
     justify-content: center;
     overflow: hidden;
     padding: 12px 24px;
-    width: fit-content;
     color: #fff;
 }
 
@@ -323,7 +323,7 @@ label:has(.option-input:checked) {
 /* ----tab-content---- */
 .tab-content {
     align-items: flex-start;
-    background-color: var(--desert-storm);
+    background-color: var(--primarybackground);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -507,4 +507,45 @@ label:has(.option-input:checked) {
 .footer p {
     margin: 0;
     color: var(--neutral400);
+}
+
+.secondary-button {
+    background: #F8A149;
+    font-size: 14px;
+    color: var(--white);
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+}
+.accodion_body {
+    align-self: stretch;
+}
+
+.table_header {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--primarybackground);
+    border: 1px solid;
+    border-color: var(--neutral100);
+    border-radius: 7px;
+    display: flex;
+}
+
+.table_body {
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--neutral100);
+    display: flex;
+}
+.table_body:last-child {
+ border: none;
+}
+.table_item {
+    flex: 1;
+    justify-content: space-between;
+    padding: 12px 0px 12px 16px;
+    color: var(--neutral800);
+    font-family: var(--font-family-nunito_sans);
 }
