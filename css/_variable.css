@@ -52,6 +52,30 @@
 }
 
 /* Classes */
+.text-title_bold--20px {
+    color: var(--neutral800);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+}
+
+.text-title_bold--16px {
+    color: var(--neutral800);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+}
+
+.text-capture_regular--14px {
+    color: var(--neutral800);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+
 .nunitosans-semi-bold-ebony-clay-20px {
     color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
