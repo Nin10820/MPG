@@ -23,6 +23,8 @@
     --neutral100: rgba(241, 244, 249, 1);
     --neutral05: rgba(245, 248, 251, 1);
 
+    --caribean-green: rgba(1,194, 152, 1);
+    --caribean-green_background: rgba(230, 249, 245);
     --black-squeeze: rgba(243, 250, 251, 1);
     --carnation: rgba(244, 85, 100, 1);
     --chelsea-cucumber: rgba(125, 185, 80, 1);
@@ -32,6 +34,8 @@
     --chablis: rgba(254, 243, 243, 1);
     --texas-rose: rgba(255, 181, 92, 1);
     --sunglow: rgba(255, 199, 72, 1);
+
+    
     --white: rgba(255, 255, 255, 1);
     --black: rgba(0, 0, 0, 1);
 

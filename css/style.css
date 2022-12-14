@@ -1,5 +1,6 @@
 @import url(_variable.css);
 @import url(CS_for_single_client.css);
+@import url('./upload.css');
 @import url(_icon.css);
 
 /* @import url(Style_guide.css); */
@@ -388,11 +389,7 @@ label:has(.option-input:checked) {
     color: var(--neutral400);
 }
 
-.step-item:has(.active) {
-    background-color: var(--primary100);
-    color: var(--neutral800);
-    font-weight: 700;
-}
+
 
 .step-item_circle {
     align-items: center;
@@ -405,9 +402,7 @@ label:has(.option-input:checked) {
     width: 40px;
 }
 
-.step-item_circle:has(.active) {
-    background-color: var(--primary500);
-}
+
 
 .step-item_circle .number {
     color: var(--neutral400);
@@ -420,9 +415,49 @@ label:has(.option-input:checked) {
     width: fit-content;
 }
 
-.step-item_circle .number.active {
+.step-item.active {
+    background-color: var(--primary100);
+    color: var(--neutral800);
+    font-weight: 700;
+}
+
+.step-item.active .step-item_circle {
+    background-color: var(--primary500);
+}
+
+.step-item.active .step-item_circle .number {
     color: var(--white);
 }
+
+/* step-item.done */
+.step-item.done {
+    color: var(--neutral800);
+    font-weight: 600;
+}
+
+.step-item.done .step-item_circle {
+    background-color: #E6F8E9;
+}
+
+.step-item.done .step-item_circle::after {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    content: '\f00c';
+    font-size: 16px;
+    color: #0DBC2A;
+    font-weight: bold;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.step-item.done .step-item_circle .number {
+    color: #E6F8E9;
+}
+
+
 
 /* ----accordion---- */
 .accordion {
@@ -517,6 +552,7 @@ label:has(.option-input:checked) {
     border: none;
     border-radius: 8px;
 }
+
 .accodion_body {
     align-self: stretch;
 }
@@ -539,13 +575,56 @@ label:has(.option-input:checked) {
     border-color: var(--neutral100);
     display: flex;
 }
+
 .table_body:last-child {
- border: none;
+    border: none;
 }
+
 .table_item {
     flex: 1;
     justify-content: space-between;
     padding: 12px 0px 12px 16px;
     color: var(--neutral800);
     font-family: var(--font-family-nunito_sans);
+}
+
+
+.prepare-folder {
+    background-color: var(--caribean-green_background);
+    border-radius: 6px;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+.prepare-folder .icon {
+    background: var(--caribean-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.prepare-folder_content {
+    display: flex;
+    gap: .75rem
+}
+
+.prepare-folder_content .text-capture_regular--14px{
+    color: var(--neutral400);
+}
+
+.prepare-folder .download {
+    color: var(--caribean-green);
+    text-decoration: underline;
+}
+
+.prepare-folder .icon object {
+    filter: brightness(0) invert(1);
+
 }
